@@ -33,10 +33,8 @@ see Gemfile
 
 - 起動
 
-$ ruby webdbsearch.rb
-
-
-として、起動します。
+`$  ruby webdbsearch.rb`
+  として、起動します。
 
 - http://127.0.0.1:4567/ にアクセスしてください。
 
