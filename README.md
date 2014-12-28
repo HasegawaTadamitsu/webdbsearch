@@ -23,20 +23,24 @@ see Gemfile
 ## Usage
 
 - webdbsearch.rb の設定。接続文字列。
+
   DBConnectMgr クラスの@connect_info を編集してください。
 :PASSWORDがなければ、IDと同じです。(え？）
 
 - webdbsearch.rb の設定。日本語コラム名、コードテーブル
+
   Schema クラスの@jp_cols_name,@code を編集してください。
 
 - 起動
-  $ ruby webdbsearch.rb
+
+$ ruby webdbsearch.rb
 として、起動します。
 
 - http://127.0.0.1:4567/ にアクセスしてください。
 
 - 接続文字列の選択、SQLの入力、及び、'送信(横max size)',
-'送信(横limit size)','送信(縦)'を押してください。
+
+  '送信(横limit size)','送信(縦)'を押してください。
 
   '送信(横max size)'は、横幅を無視して、1レコード1行に表示し、50行単位にtableを作ります。
 
